@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon!</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="functions.js"></script>
+
+</head>
+<body>
+<header>
+    <h1>Simon Dice</h1>
+</header>    
+<main>
+    <section class="menu">
+        <button class="menu-iniciar" onclick="checkNombre()">Iniciar</button>
+        <input type="text" class="menu-nombre" id="menu-nombre">
+        <div class="menu-puntajes">
+            <h4>Puntaje:</h4>
+        </div>
+        <div class="menu-tiempos">
+            <h4>Tiempo:</h4>   
+        </div>
+    </section>
+
+    <section class="area-juego">
+        <div class="area-fila">
+            <div class="area-verde"></div>
+            <div class="area-rojo"></div>
+        </div>
+        <div class="area-fila">
+            <div class="area-amarillo"></div>
+            <div class="area-azul"></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Alejandro Jazmatie - UAI</p>
+</footer>
+</body>
+</html>
