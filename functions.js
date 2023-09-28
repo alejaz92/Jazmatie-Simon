@@ -5,10 +5,10 @@ var posicionJuego = 0
 
 
 function checkNombre() {
-    var nombre = document.getElementById("menu-nombre")
+    var nombre = document.getElementById("menu-nombre").value
 
-    if (nombre.value === '') {
-        alert('Debe ingresar un nombre antes de iniciar el juego');
+    if (nombre.length < 3) {
+        alert('Debe ingresar un nombre correcto antes de iniciar el juego');      
 
     }
     else {
